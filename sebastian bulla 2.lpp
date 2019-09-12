@@ -1,0 +1,33 @@
+caracter respuesta
+
+entero nota,s
+
+inicio 
+  
+  repita 
+  escriba "ingrese la nota"
+     lea nota 
+     
+         repita 
+          escriba "¿desea continuar? S/N"
+          
+          lea respuesta
+          hasta (respuesta= 'S') o (respuesta= 'N')
+          
+          hasta (respuesta='N')
+          
+         Escriba "que nota" 
+         
+         
+ Fin        
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         

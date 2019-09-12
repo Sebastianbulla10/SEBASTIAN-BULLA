@@ -1,0 +1,172 @@
+  arreglo [3] de caracter car
+  arreglo [3] de cadena [10] cad
+  arreglo [3] de real re
+  arreglo [3] de entero en
+  
+  caracter e,resp
+  cadena [4] m,n,op,p
+  entero a,b,c,d 
+  real i,j,k,l 
+  
+inicio
+
+     escriba "presione enter para comenzar"
+     llamar obtener_caracter
+     llamar limpiar_pantalla 
+     llamar nueva_linea
+   
+    repita 
+        
+        llamar color_texto (15)
+          
+          para a<-1 hasta 2 haga        
+           escriba "digite entero: "
+           lea en[a]         
+           llamar nueva_linea
+          fin para    
+        
+          para a<-1 hasta 2 haga        
+           escriba en[a] 
+           llamar nueva_linea 
+          fin para
+           
+          llamar obtener_caracter 
+          llamar limpiar_pantalla
+          llamar nueva_linea
+           
+           
+          para a<-1 hasta 2 haga      
+           llamar color_texto (14)
+           escriba "ingrese caracter: "
+           lea car[a]
+           llamar nueva_linea
+          fin para  
+       
+      	  para a<-1 hasta 2 haga 
+           escriba car[a] 
+           llamar nueva_linea   
+          fin para
+      		     
+      	   llamar color_texto (13)
+      	   llamar obtener_caracter 
+      	   llamar limpiar_pantalla
+      	   llamar nueva_linea
+
+          para a<-1 hasta 2 haga            
+           escriba "ingrese cadena de caracteres: "
+           lea cad[a]
+           llamar nueva_linea
+          fin para
+                 
+          para a<-1 hasta 2 haga 
+           escriba cad[a]
+           llamar nueva_linea
+          fin para
+                 
+           llamar color_texto  (12)
+           llamar obtener_caracter
+           llamar nueva_linea
+           llamar limpiar_pantalla
+                      
+          para a<- 1 hasta 2 haga        
+           escriba "ingrese numero real: "     
+           lea re[a] 
+           llamar nueva_linea
+          fin para 
+                     	   
+          para a<-1 hasta 2 haga 
+           escriba re[a]
+           llamar nueva_linea                  	       
+          fin para
+           
+           llamar obtener_caracter
+           llamar limpiar_pantalla
+           llamar color_texto (11)
+                       
+          escriba "usted a llegado al final de la fase desea continuar? S/N "      
+                       
+          lea resp 
+                       
+              si (resp='s')o (resp='S') entonces  
+                       
+                 repita 
+                       
+                   para a<-1 hasta 2 haga          
+                    llamar color_texto (10)
+                    escriba "digite entero: "
+                    lea en[a]         
+                    llamar nueva_linea
+                   fin para    
+        
+                   para a<-1 hasta 2 haga        
+                    escriba en[a] 
+                    llamar nueva_linea 
+                   fin para
+           
+                    llamar obtener_caracter 
+                    llamar limpiar_pantalla
+                    llamar nueva_linea 
+                                        
+                   para a<-1 hasta 2 haga  
+                    llamar color_texto (11)
+          		    escriba "ingrese caracter: "
+         		    lea car[a]
+         		    llamar nueva_linea
+                   fin para  
+       
+      		       para a<-1 hasta 2 haga 
+                    escriba car[a] 
+         		    llamar nueva_linea   
+                    fin para
+      		     
+      		        llamar color_texto (12)
+      		        llamar obtener_caracter 
+      		        llamar limpiar_pantalla
+      		        llamar nueva_linea
+      		                                  
+      		       para a<-1 hasta 2 haga       
+                    escriba "ingrese cadena de caracteres: "
+                    lea cad[a]
+                    llamar nueva_linea
+                   fin para
+                 
+                   para a<-1 hasta 2 haga 
+                    escriba cad[a]
+                    llamar nueva_linea  
+                   fin para
+                                     
+                    llamar color_texto  (13)
+                    llamar obtener_caracter
+                    llamar limpiar_pantalla
+                    llamar nueva_linea
+                                              
+                   para a<- 1 hasta 2 haga        
+                    escriba "ingrese numero real: "     
+                    lea re[a] 
+                    llamar nueva_linea
+                    fin para 
+                    
+                   para a<-1 hasta 2 haga 
+                    escriba re[a]
+                    llamar nueva_linea
+                   fin para 
+                                               
+                    llamar obtener_caracter
+                    llamar limpiar_pantalla
+                    llamar color_texto (14)
+                    escriba "final de la fase, desea continuar? S/N  "          
+                      lea resp          
+                    llamar nueva_linea
+                      resp<-'n' 
+                                     
+                 hasta (resp='n') o (resp = 'N') 
+                              
+                    escriba "usted a terminado" 
+                    llamar nueva_linea  
+                              
+              fin si                     
+                resp<-'n'
+                      
+      hasta (resp= 'n')o(resp ='N')         
+     
+fin

@@ -1,0 +1,36 @@
+ENTERO I,J,SUMA,K,P
+INICIO
+     PARA I<-1 HASTA 3 HAGA 
+        ESCRIBA "DESCANSA"
+         LLAMAR NUEVA_LINEA
+           PARA J<-1 HASTA 4 HAGA
+
+         
+                    ESCRIBA J
+                     LLAMAR NUEVA_LINEA
+                         PARA P<-3 HASTA 5 HAGA
+                         
+                         
+                         ESCRIBA "H"
+                          LLAMAR NUEVA_LINEA
+                               PARA K<-1 HASTA 3 HAGA
+                                  SUMA<-K+1
+                  
+                  
+                                 ESCRIBA SUMA 
+                                  LLAMAR NUEVA_LINEA
+                              
+                                ESCRIBA "KK"
+                            
+                            FIN PARA 
+                       
+                       FIN PARA 
+                 
+                 
+                 ESCRIBA "PP"
+            
+             FIN PARA
+       
+        FIN PARA 
+   
+    FIN

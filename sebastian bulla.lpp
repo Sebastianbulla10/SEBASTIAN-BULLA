@@ -1,0 +1,117 @@
+Arreglo [8] de entero cifra
+Arreglo [8] de caracter caracte
+Arreglo [8] de real rea
+Arreglo [8] de cadena [10] caden
+Entero N, primero
+CARACTER P
+Inicio
+llamar color_fondo(2)
+
+	primero<-1
+repita
+REPITA
+	
+
+	   
+	 Para N<-1 hasta 2 haga
+	  Escriba "digite su numero entero: "
+	  Lea cifra [N]
+	 Fin para
+	  Para N<-1 hasta 2 haga
+	  Escriba cifra[N]
+	  llamar nueva_linea
+	 Fin para
+	 
+	 Para N<-1 hasta 2 haga
+	  Escriba "digite su caracter: "
+	  Lea caracte[N]
+	 Fin para
+	 Para N<-1 hasta 2 haga
+	 
+	  Escriba caracte[N]
+	  llamar nueva_linea
+	 Fin para
+	 
+	 Para N<-1 hasta 2 haga
+	  Escriba "digite un numero real: "
+	  lea rea[N]
+	 Fin para
+	 Para N<-1 hasta 2 haga
+	  Escriba rea[N]
+	  llamar nueva_linea
+	 Fin para
+	 
+	 Para N<-1 hasta 2 haga
+	  Escriba " digite un nombre: " 
+	  lea caden[N]
+	  Fin para
+	 Para N<-1 hasta 2 haga
+	  Escriba caden[N]
+	  llamar nueva_linea
+	 Fin para
+	primero<- primero+1
+	hasta (primero=2) o (primero=3)o (primero=4) o (primero=5) o (primero=6)
+	llamar nueva_linea
+	escriba "¿Quiere continuar? S/N"
+	lea p
+	hasta(p='N') O (P='N')
+	
+	
+	
+	
+	
+	
+	
+primero<-0
+	
+repita
+REPITA
+	
+
+	   
+	 Para N<-1 hasta 2 haga
+	  Escriba "digite su numero entero: "
+	  Lea cifra [N]
+	 Fin para
+	  Para N<-1 hasta 2 haga
+	  Escriba cifra[N]
+	  llamar nueva_linea
+	 Fin para
+	 
+	 Para N<-1 hasta 2 haga
+	  Escriba "digite su caracter: "
+	  Lea caracte[N]
+	 Fin para
+	 Para N<-1 hasta 2 haga
+	  Escriba caracte[N]
+	  llamar nueva_linea
+	 Fin para
+	 
+	 Para N<-1 hasta 2 haga
+	  Escriba "digite un numero real: "
+	  lea rea[N]
+	 Fin para
+	 Para N<-1 hasta 2 haga
+	  Escriba rea[N]
+	  llamar nueva_linea
+	 Fin para
+	 
+	 Para N<-1 hasta 2 haga
+	  Escriba " digite un nombre: " 
+	  lea caden[N]
+	  Fin para
+	 Para N<-1 hasta 2 haga
+	  Escriba caden[N]
+	  llamar nueva_linea
+	 Fin para
+	primero<- primero+1
+	hasta (primero=2) o (primero=4)o (primero=6) o (primero=8) o (primero=10)
+	llamar nueva_linea
+	escriba "¿Quiere continuar? S/N"
+	lea p
+	hasta(p='N') O (P='N')
+
+	
+	    
+	
+Fin

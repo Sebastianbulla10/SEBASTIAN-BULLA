@@ -1,0 +1,237 @@
+Real A,B,CA
+Caracter C,X
+Cadena [20] N, fecha
+Entero obcion2, base, h, Area, Radio, lado, contraseña
+Inicio
+ Escriba "Ingrese un caracter del menu"
+ 
+llamar nueva_linea
+
+Escriba "S para la suma"
+Llamar nueva_linea 
+
+Escriba "R para la resta" 
+Llamar nueva_linea 
+
+Escriba "M para la multiplicacion"
+llamar nueva_linea
+
+Escriba "D para la division"
+llamar nueva_linea
+
+Escriba "Caracter distinto a R,S,M o D para terminar"
+llamar nueva_linea
+
+lea C
+
+
+Escriba "Digite su nombre"
+llamar nueva_linea
+Lea N
+
+Caso C
+      'S': escriba "vamos a la suma" 
+          llamar nueva_linea
+     
+          escriba "ingrese primer numero"
+          Lea A
+          Llamar nueva_linea
+    
+           Escriba "Ingrese segundo numero" 
+           Llamar nueva_linea 
+           Lea B 
+           Llamar nueva_linea
+            CA<-A+B 
+             Escriba "la suma es:", CA
+                       
+                     
+             
+                       
+             
+                'R': Escriba "vamos a restar" 
+     
+                  escriba " ingrese el primer nuemro"
+                   Lea A
+                  llamar nueva_linea
+   
+                   Escriba "segundo numero"
+                    lea B
+                   llamar nueva_linea
+                    CA<- A-B
+                 
+                     Escriba "la resta es:", CA
+
+                                 
+                                 
+
+
+                         'M': Escriba "vamos a multiplicar"
+   
+                              escriba " ingrese el primer nuemro"
+                              Lea A
+                              llamar nueva_linea
+    
+                               Escriba "ingrese el segundo numero"
+                               Llamar nueva_linea
+                               Lea B
+                               Llamar nueva_linea
+                                CA<- A*B
+   
+                                Escriba "la multiplicacion es:", CA
+   
+                                            
+                                   
+                                   
+
+                                   'D': Escriba "vamos a la divisin"
+     
+                                         escriba  "Ingrese el primer numero"
+                                          Lea A
+                                          Llamar nueva_linea
+                                          
+                                           Escriba "ingrese el segundo numero"
+                                          Lea B
+                                          Llamar nueva_linea
+                                              CA<- A/B
+     
+                                           Escriba "la division es:",CA
+                                           
+                                 Sino:
+                                  Escriba "obcion invalida"
+                                           
+                                              
+    Escriba "digite obcion a seleccionar"
+    Llamar nueva_linea
+    
+    Escriba "1 para area triangulo" 
+    Llamar nueva_linea
+    
+    Escriba "50 para area cuadrado "
+    llamar nueva_linea 
+    
+    Escriba "8 para area circulo"
+    llamar nueva_linea
+    
+    Escriba "4 para una nueva obcion"
+    llamar nueva_linea
+    Lea obcion2
+    
+    caso obcion2
+         1: Escriba "ingrese el numero para la base"
+            llamar nueva_linea
+            lea base
+            llamar nueva_linea
+            
+            Escriba "ingreso el valor de la altura"
+            llamar nueva_linea
+            lea h  
+            Llamar nueva_linea
+               Area<-(base*h)/2
+               llamar nueva_linea
+                 escriba Area
+            
+                      
+                       2: Escriba "ingrese numero para area cuadrada"
+                           llamar nueva_linea
+                           lea Area 
+                           llamar nueva_linea
+                           
+                           Escriba "ingrese numero de radio"
+                           llamar nueva_linea
+                           lea radio
+                           llamar nueva_linea 
+                           
+                           Area<- (lado*lado)
+                             Escriba Area 
+    
+         
+                               
+                                    3: Escriba " ingrese numero para area circulo"
+                                       llamar nueva_linea
+                                       lea area
+                                       llamar nueva_linea
+                                       
+                                       
+                                       Escriba "ingrese numero de radio"
+                                       llamar nueva_linea
+                                       Lea Area
+                                       llamar nueva_linea
+                                       
+                                       Area<- 3.1416*(radio*radio)
+                                        Escriba Area
+                                        
+                                        
+                                        
+                                              
+                                              
+  4: escriba "A ingresa contraseña de 3 digitos"
+   llamar nueva_linea
+                                                 
+ escriba "B ingrese la fecha"
+  llamar nueva_linea
+                                                 
+  Escriba "C si quieres saber tu nombre"
+   llamar nueva_linea
+                                              
+    lea X   
+    llamar nueva_linea
+    
+       Caso X
+    
+           'A','a':Escriba "ingrese una contraseña de 3 digitos"
+                llamar nueva_linea
+                 lea contraseña
+                 llamar nueva_linea
+                 
+                 mientras contraseña <>123 haga 
+                 
+                 escriba "contraseña incorrecta"
+                 Lea contraseña 
+                 
+                 fin mientras 
+                 LLAMAR NUEVA_LINEA
+                 Escriba "contraseña correcta"
+                 llamar nueva_linea
+                                           
+                                              
+                                      
+                               'B','b':Escriba "ingresa la fecha"   
+                                        llamar nueva_linea
+                                        lea fecha 
+                                        llamar nueva_linea
+                                        
+                                        escriba "la fecha es", fecha
+                                        
+                                        
+                                        
+                                        
+                                        
+                                            'C','c': Escriba ""   
+                                                   
+                                                   
+                     
+                                                 
+                                               
+                                                 
+                                                 
+                                                  
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+    fin caso                                   
+                                      
+    
+FIN CASO
+       
+      Llamar nueva_linea 
+      Escriba "su nombre es    ",N 
+     
+FIN CASO
+FIN
+
+     
+

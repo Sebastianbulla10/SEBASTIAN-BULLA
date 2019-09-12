@@ -1,0 +1,46 @@
+Real cedula
+Inicio
+Escriba "ingresando a cine"
+llamar nueva_linea
+escriba "presente su cedula"
+lea cedula
+si (cedula>90) entonces
+
+escriba "ingreso a ancianos"
+sino 
+si (cedula>70)y(cedula<=90) entonces
+escriba "ingrese a cine para viejos"
+
+sino
+si (cedula>60)y(cedula<=70) entonces
+escriba "ingrese a cine tercera edad"
+
+sino
+si (cedula>28)y(cedula<=60)entonces
+escriba "ingreso a cine para adulto mayor"
+
+sino 
+si (cedula>17)y(cedula<=28) entonces
+escriba "ingreso a cine para adulto"
+
+sino
+si (cedula>10)y(cedula<=17) entonces
+escriba "ingreso a cine para adolecentes"
+
+sino
+si (cedula>1)y(cedula<=10) entonces
+escriba "ingreso a cine para niños"
+
+sino
+si (cedula<1) entonces
+escriba "ingreso a cine para bebes"
+fin si
+fin si
+fin si
+fin si
+fin si
+fin si
+fin si
+fin si
+
+fin 

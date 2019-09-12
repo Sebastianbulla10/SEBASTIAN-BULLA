@@ -1,0 +1,89 @@
+arreglo [2] de entero entero1
+arreglo [2] de caracter caracter1
+arreglo [2] de cadena[15] cadena1
+arreglo [2] de real real1
+entero a
+caracter g,h
+
+
+inicio
+Escriba "Presione una tecla para continuar :"
+llamar obtener_caracter   /*Al llamar "obtener_caracter" lo que hacemos es que no avanza hasta que presiones culaquier tecla*/ 
+llamar nueva_linea 
+llamar color_texto(11)   /* Al llamar "Color_texto(x)" lo que hacemos es cambiar el color del texto que no imprime(con x me refiero a que puede ser cualquier número del 0 al 15, en donde cada número es un colo distinto)*/
+Repita 
+	para a<-1 hasta 2 haga 
+	Escriba "Digite entero: "
+	lea entero1[a]
+	llamar nueva_linea
+	fin para 
+	para a<-1 hasta 2 haga
+	Escriba entero1[a]
+	llamar nueva_linea
+	fin para
+
+	llamar obtener_caracter
+	llamar limpiar_pantalla  /*  Al llamar "limpiar_pantalla" lo que hacemos es limpiar todo lo que nos imprime, como consejo , simpre usen "limpiar_pantalla" luego de "obtener_caracter", para que puedan ver lo que hay en la pantalla antes de que se limpie */
+	
+		para a <-1 hasta 2 haga 
+		Escriba "Digite caracter: "
+		lea caracter1[a]
+		llamar nueva_linea
+		fin para 
+		para a<-1 hasta 2 haga
+		Escriba caracter1[a]
+		llamar nueva_linea
+		fin para
+		
+		llamar obtener_caracter
+		llamar limpiar_pantalla
+		
+			
+			para a <-1 hasta 2 haga 
+			Escriba "Digite Cadena: "
+			lea Cadena1[a]
+			llamar nueva_linea
+			fin para 
+			para a<-1 hasta 2 haga
+			Escriba cadena1[a]
+			llamar nueva_linea
+			fin para
+			
+			llamar obtener_caracter
+			llamar limpiar_pantalla
+			
+				para a <-1 hasta 2 haga 
+				Escriba "Digite Real: "
+				lea real1[a]
+				llamar nueva_linea
+				fin para 
+				para a<-1 hasta 2 haga
+				Escriba real1[a]
+				llamar nueva_linea
+				fin para
+				
+				llamar obtener_caracter
+				llamar limpiar_pantalla
+
+				
+
+repita				
+	escriba "Desea continuar ?: S/N " 	
+	lea h
+		si h='S' entonces
+		escriba "Continue"
+		llamar nueva_linea 
+		h<-'n'
+		llamar color_texto(12)
+		sino
+		fin si
+
+			si h='s' entonces
+			escriba "Usted no puede continuar !!"
+			llamar nueva_linea 
+			h<-'N'
+			sino
+			fin si
+hasta (h='n') o (h='N')
+hasta (h='N')
+fin
