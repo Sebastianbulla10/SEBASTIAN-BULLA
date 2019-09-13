@@ -1,0 +1,31 @@
+
+	Arreglo [10] de entero vector
+	Entero fila,columna,auxiliar
+	Inicio
+		vector [1]<-1
+		vector [2]<-2
+		vector [4]<-4
+		vector [3]<-3
+		vector [5]<-5	
+			Escriba "llamado de vector con numeros"
+				llamar nueva_linea
+			Para fila <-1 hasta 5 haga
+				Escriba vector[fila]
+			Fin para
+				llamar nueva_linea
+			Para Fila <-1 hasta 5 haga
+				Para columna <-1 hasta 5-fila haga
+					Si vector[columna]>vector[columna+1]	entonces
+						auxiliar <-vector[columna]
+						vector [columna]<-vector  [columna+1]
+						vector [columna+1]<-auxiliar
+					Fin si
+				Fin para		
+			Fin para
+		Escriba "imprimendo los numeros del vector de forma ascendente"
+		llamar nueva_linea
+	Para fila<-1 hasta 5 haga
+		Escriba "posicion",fila,"es:",		vector [fila]	
+		llamar nueva_linea
+	Fin para
+FIN							

@@ -1,0 +1,8 @@
+entero n
+caracter x
+inicio
+	lea n
+	x<-car(n)
+	llamar nueva_linea
+	escriba "el caracter ascii de ",n, " es:",x
+fin

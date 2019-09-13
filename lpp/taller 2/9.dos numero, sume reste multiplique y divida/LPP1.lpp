@@ -1,0 +1,21 @@
+real b,a,c,d,e,f
+inicio
+escriba "suma de tres numeros"
+llamar nueva_linea
+escriba "ingrese el primer numero:"
+lea b
+escriba "ingrese el segundo numero:"
+lea a
+llamar nueva_linea
+c<-a+b
+escriba "el resultado de la suma es : ",c
+d<-a-b
+llamar nueva_linea
+escriba "el resultado de la resta es : ",d
+e<-a*b
+llamar nueva_linea
+escriba "el resultado de la multiplicacion es : ",e
+f<-a/b
+llamar nueva_linea
+escriba "el resultado de la division es : ",f
+fin

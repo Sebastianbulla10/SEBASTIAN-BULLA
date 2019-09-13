@@ -1,0 +1,10 @@
+real b,a,c
+inicio
+escriba "dias vividos de una persona"
+llamar nueva_linea
+escriba "ingrese su año de nacimiento:"
+lea b
+llamar nueva_linea
+a<-(2019-b)*365
+escriba "usted ha vivido: ",a
+fin

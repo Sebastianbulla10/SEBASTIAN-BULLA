@@ -1,0 +1,15 @@
+entero a
+inicio
+escriba "la nota de un estudiante"
+llamar nueva_linea
+escriba "la nota de 1 a 5"
+llamar nueva_linea
+lea a
+si (3<=a) entonces
+escriba "muy bien pasaste la materia"
+fin si
+llamar nueva_linea
+si (3>a) entonces
+escriba "lo siento debes recuperar"
+fin si
+fin

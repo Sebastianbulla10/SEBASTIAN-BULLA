@@ -1,0 +1,19 @@
+entero a,b,c
+inicio
+escriba "diga cuando dos números son iguales y cuando son diferentes"
+llamar nueva_linea
+escriba "un numero"
+llamar nueva_linea
+lea a
+llamar nueva_linea
+escriba "otro numero"
+llamar nueva_linea
+lea b
+llamar nueva_linea
+si a=b entonces
+escriba "son iguales"
+sino
+escriba "son diferentes"
+fin si
+
+fin

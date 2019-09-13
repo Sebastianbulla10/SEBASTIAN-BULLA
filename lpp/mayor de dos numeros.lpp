@@ -1,0 +1,26 @@
+entero a,b,c
+inicio
+escriba "calcular cual es el mayor de dos números"
+llamar nueva_linea
+escriba "un numero"
+llamar nueva_linea
+lea a
+llamar nueva_linea
+escriba "otro numero"
+llamar nueva_linea
+lea b
+llamar nueva_linea
+si a>b entonces
+c<-a
+a<-b
+b<-c
+fin si
+llamar nueva_linea
+si b=a entonces
+escriba "son iguales"
+sino
+escriba "el menor es ",a
+llamar nueva_linea
+escriba "el mayor es ",b
+fin si
+fin

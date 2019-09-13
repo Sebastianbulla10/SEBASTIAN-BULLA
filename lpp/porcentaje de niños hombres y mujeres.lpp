@@ -1,0 +1,18 @@
+entero h,m,g,n
+inicio
+escriba "porcentaje de niños, hombres y de mujeres"
+llamar nueva_linea
+escriba "digite numero de hombres "
+llamar nueva_linea
+lea h
+llamar nueva_linea
+escriba "digite el numero de mujeres"
+lea m
+llamar nueva_linea
+escriba "digite el numero de niños"
+lea n
+g<-m+h+n
+escriba "porsentaje de hombres",(h/g)*100,"%"
+escriba "porsentaje de mujeres",(m/g)*100,"%"
+escriba "porsentaje de mujeres",(n/g)*100,"%"
+fin

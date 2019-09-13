@@ -1,0 +1,12 @@
+entero a
+inicio
+escriba "a los números mayores de 20 les sume 10s"
+llamar nueva_linea
+escriba "un numero"
+lea a
+si a > 20 entonces
+a <- a+10
+fin si
+llamar nueva_linea
+escriba "el numero es ",a
+fin
