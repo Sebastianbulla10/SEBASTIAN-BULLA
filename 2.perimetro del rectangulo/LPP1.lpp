@@ -1,0 +1,12 @@
+real b,a,c
+inicio
+escriba "perimetro de un rectangulo"
+llamar nueva_linea
+escriba "ingrese el largo:"
+lea b
+escriba "ingrese el ancho:"
+lea a
+llamar nueva_linea
+c<-(b+a)*2
+escriba "el perimetro del rectangulo es: ",c
+fin

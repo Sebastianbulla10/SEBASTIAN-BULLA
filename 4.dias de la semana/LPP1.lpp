@@ -1,0 +1,13 @@
+inicio
+escriba "dias de la semana"
+llamar nueva_linea
+escriba "lunes"
+llamar limpiar_pantalla
+escriba "martes"
+llamar limpiar_pantalla
+escriba "miercoles"
+llamar limpiar_pantalla
+escriba "jueves"
+llamar limpiar_pantalla
+escriba "viernes"
+fin

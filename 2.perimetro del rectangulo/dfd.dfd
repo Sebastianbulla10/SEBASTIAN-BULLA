@@ -1,0 +1,41 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+28
+'perimetro de un rectangulo'
+4
+1
+17
+'ingrese la base'
+5
+1
+5
+largo
+4
+1
+16
+'ingrese altura'
+5
+1
+5
+ancho
+4
+1
+34
+'el perimetro del rectangulo  es:'
+6
+1
+9
+resultado
+15
+(largo+ancho)*2
+4
+1
+9
+resultado
+1

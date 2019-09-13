@@ -1,0 +1,10 @@
+real b,c
+inicio
+escriba "perimetro de un cuadrado"
+llamar nueva_linea
+escriba "ingrese un lado:"
+lea b
+llamar nueva_linea
+c<-(b+b)*2
+escriba "el perimetro del cuadrado es: ",c
+fin

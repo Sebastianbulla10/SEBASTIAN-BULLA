@@ -1,0 +1,12 @@
+real b,a,c
+inicio
+escriba "area del triangulo"
+llamar nueva_linea
+escriba "ingrese la base:"
+lea b
+escriba "ingrese la altura:"
+lea a
+llamar nueva_linea
+c<-b*a/2
+escriba "el area del triangulo es: ",c
+fin

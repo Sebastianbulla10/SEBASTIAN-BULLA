@@ -1,0 +1,14 @@
+real b,a,c,d
+inicio
+escriba "suma de tres numeros"
+llamar nueva_linea
+escriba "ingrese el primer numero:"
+lea b
+escriba "ingrese el segundo numero:"
+lea a
+escriba "ingrese el tercer numero:"
+lea d
+llamar nueva_linea
+c<-a+b+d
+escriba "el resultado es: ",c
+fin
